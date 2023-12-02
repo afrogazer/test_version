@@ -49,6 +49,7 @@ with models.DAG(
     # [START composer_simple_relationships]
     # Define the order in which the tasks complete by using the >> and <<
     # operators. In this example, hello_python executes before goodbye_bash.
+    #please note that the order of the tasks is important. The tasks are executed in the order they are defined in the DAG.
     hello_python >> goodbye_bash
     # [END composer_simple_relationships]
 # [END composer_simple]
