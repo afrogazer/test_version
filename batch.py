@@ -1,3 +1,4 @@
 import pandas as pd
 import numpy as np
-#making sure I am not miisning any data
+import matplotlib.pyplot as plt
+#making sure I am not missing any data
